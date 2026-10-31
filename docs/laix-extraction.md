@@ -1,6 +1,6 @@
 # LAIX integration — one package, one boundary
 
-RECALL uses the real **`laix@0.2.1`** package. The local copies of `@laix/attention` and
+RECALL uses the real **`laix@0.3.2`** package. The local copies of `@laix/attention` and
 `@laix/decision-record` are gone.
 
 ```
@@ -19,9 +19,9 @@ LAIX does not know what a meeting is. RECALL does not implement a second decisio
 
 ## Dependency
 
-- Package: `laix@0.2.1`
-- Tarball: `vendor/laix-0.2.1.tgz`
-- `web/package.json`: `"laix": "file:../vendor/laix-0.2.1.tgz"`
+- Package: `laix@0.3.2`
+- Tarball: `vendor/laix-0.3.2.tgz`
+- `web/package.json`: `"laix": "file:../vendor/laix-0.3.2.tgz"`
 - SHA-256:
 
 ```

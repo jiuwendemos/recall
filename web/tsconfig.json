@@ -16,9 +16,6 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": ".",
-    "paths": {
-      "laix": ["./src/types/laix.d.ts"]
-    },
     "types": ["vitest/globals"]
   },
   "include": ["src"]
