@@ -2,21 +2,21 @@
 
 Pinned LAIX TypeScript package used by the RECALL web app.
 
-- **Tag:** `v0.3.2`
-- **Package:** `laix@0.3.2`
-- **Source:** `C:\Workspace\laix\typescript\laix` (read-only for RECALL)
+- **Tag:** `v0.6.0`
+- **Package:** `laix@0.6.0`
+- **Source:** `C:\Workspace\laix\packages\typescript\laix` (read-only for RECALL)
 - **Packed with:**
 
 ```powershell
-cd C:\Workspace\laix\typescript\laix
+cd C:\Workspace\laix\packages\typescript\laix
 npm pack --pack-destination C:\Workspace\openjiuwendemos\recall\vendor
 ```
 
-- **Tarball:** `laix-0.3.2.tgz`
+- **Tarball:** `laix-0.6.0.tgz`
 - **SHA-256:**
 
 ```
-588321C3B8F5CE988DAABE6B5D2542DCE24195C6BC3DDB1D10D5177D1CDB0888
+0FDB8008EC2ED322A4F69DC7344A2C81EFE67AF6B33FDBD196022A108488CEE2
 ```
 
 The package ships its own `types.d.ts`; the web app no longer keeps a local

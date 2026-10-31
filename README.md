@@ -103,8 +103,8 @@ deliberately hides what a role cannot act on.
 
 **RECALL now uses the real LAIX package**
 
-- `laix@0.2.1` is vendored as a pinned tarball (`vendor/laix-0.2.1.tgz`) and added as
-  `file:../vendor/laix-0.2.1.tgz`.
+- `laix@0.6.0` is vendored as a pinned tarball (`vendor/laix-0.6.0.tgz`) and added as
+  `file:../vendor/laix-0.6.0.tgz`.
 - The local `packages/laix-attention` and `packages/laix-decision-record` copies and their Vite
   aliases are gone.
 - Attention goes **RECALL item → adapter → LAIX `decide` → RECALL UI**.

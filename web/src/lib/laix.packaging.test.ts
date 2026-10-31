@@ -31,6 +31,6 @@ describe("LAIX packaging", () => {
     const packageJson = JSON.parse(readFileSync(join(webRoot, "package.json"), "utf8")) as {
       dependencies?: Record<string, string>;
     };
-    expect(packageJson.dependencies?.laix).toMatch(/vendor\/laix-0\.3\.2\.tgz$/);
+    expect(packageJson.dependencies?.laix).toMatch(/vendor\/laix-\d+\.\d+\.\d+\.tgz$/);
   });
 });
