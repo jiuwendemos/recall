@@ -87,12 +87,6 @@ function toOutcomes(feedback: Record<string, AttentionFeedback> | undefined): Ou
     }));
 }
 
-function parseQuietHours(value: string | undefined): [string, string] | null {
-  if (!value) return null;
-  const match = value.match(/(\d{1,2}:\d{2})\s*[–\-—]\s*(\d{1,2}:\d{2})/);
-  return match ? [match[1], match[2]] : null;
-}
-
 /** LAIX learned adjustments are points on the score; OutcomeLog returns -0.2..0.2. */
 function learnedAdjustments(items: AttentionItem[], feedback: Record<string, AttentionFeedback> | undefined): Record<string, number> {
   const log = new OutcomeLog(toOutcomes(feedback));
@@ -121,7 +115,7 @@ export function decideAttention(items: AttentionItem[], input: LaixAttentionInpu
   const feedback = toFeedback(input.feedback);
   const context: Context = {
     now: input.now ?? new Date(),
-    quietHours: parseQuietHours(input.quietHours),
+    quietHours: input.quietHours ?? null,
     interruptionBudget: input.interruptionBudget,
     minConfidence: input.minConfidence,
     feedback,
