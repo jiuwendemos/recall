@@ -97,7 +97,7 @@ npm run preview -- --port 5190
 
 ## LAIX
 
-The attention decision and the decision record come from the real `laix@0.6.0` package:
+The attention decision and the decision record come from the real `laix@0.7.0` package:
 
 - attention: `decide(context, signals)` with RECALL's adapter mapping items to signals;
 - decision record: `createDecisionRecord` / `approveRecord` from the same package.

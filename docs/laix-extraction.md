@@ -1,6 +1,6 @@
 # LAIX integration — one package, one boundary
 
-RECALL uses the real **`laix@0.6.0`** package. The local copies of `@laix/attention` and
+RECALL uses the real **`laix@0.7.0`** package. The local copies of `@laix/attention` and
 `@laix/decision-record` are gone.
 
 ```
@@ -19,13 +19,13 @@ LAIX does not know what a meeting is. RECALL does not implement a second decisio
 
 ## Dependency
 
-- Package: `laix@0.6.0`
-- Tarball: `vendor/laix-0.6.0.tgz`
-- `web/package.json`: `"laix": "file:../vendor/laix-0.6.0.tgz"`
+- Package: `laix@0.7.0`
+- Tarball: `vendor/laix-0.7.0.tgz`
+- `web/package.json`: `"laix": "file:../vendor/laix-0.7.0.tgz"`
 - SHA-256:
 
 ```
-E38A039F887A442FE573A5C04E4A204E1DBD1323958706204EA31C33CD527760
+29DDCE6C387D2ED00607A477905C4CE4CB012BD699830577D59CEB4830E77904
 ```
 
 The tarball is pinned and committed. Nothing is published.
@@ -61,7 +61,7 @@ source. It contains no runtime code and no second policy.
 1. Check out the new LAIX tag (do not move the tag).
 2. Pack it into `vendor/`:
    ```powershell
-   cd C:\Workspace\laix\typescript\laix
+   cd C:\Workspace\laix\packages\typescript\laix
    npm pack --pack-destination C:\Workspace\openjiuwendemos\recall\vendor
    ```
 3. Update `web/package.json` to the new `file:../vendor/laix-<version>.tgz`.
