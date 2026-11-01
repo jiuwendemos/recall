@@ -25,7 +25,7 @@ LAIX does not know what a meeting is. RECALL does not implement a second decisio
 - SHA-256:
 
 ```
-0FDB8008EC2ED322A4F69DC7344A2C81EFE67AF6B33FDBD196022A108488CEE2
+E38A039F887A442FE573A5C04E4A204E1DBD1323958706204EA31C33CD527760
 ```
 
 The tarball is pinned and committed. Nothing is published.
